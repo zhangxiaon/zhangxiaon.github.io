@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/datas.js"></script>
+    <script src="js/tree.js"></script>
+    <script src="js/index.js"></script>
+    
+</head>
+<body>
+    <div id="tools">
+        <button class="createFolder">新建文件夹</button>
+        <button class="rename">重命名</button>
+        <button class="moveto">移动到</button>
+        <button class="delete">删除</button>
+        <button class="showType"></button>
+        <button class="menu"></button>
+    </div>
+	<section class="clear">
+		<ul id="menu_tree">
+		</ul>
+		<div id="rightbox" class="clear">
+			<div id="breadcrumb">
+		        <input type="checkbox" id="checkAll">
+		        <a href="javascript:;">微云 </a>
+		        <span class="list">
+		            <!--<a href="">妙味</a> >-->
+		            <!--<a href="">讲师</a> >-->
+		            <!--<a href="">js</a> >-->
+		            <!--<a href="">钟毅</a>-->
+		        </span>
+		    </div>
+		
+		    <div id="content" class="clear" style="display: inline-block;">
+		    	
+		        <!--<div class="file">
+		            <span class="checkbox"></span>
+		            <div class="image image-folder"></div>
+		            <div class="name">妙味</div>
+		        </div>-->
+		
+		    </div>
+		</div>
+	</section>	
+	
+    
+    <div id="bgbox">
+    	<div id="bg"></div>
+    	<div id="box">
+    		<dl>
+    			<dt>请选择要移动到的文件夹</dt>
+    		</dl>
+    		<a href="javascript:;">X</a>
+    	</div>
+    </div>
+    <div id="smallImg">
+    	<span></span>
+    </div>
+    <ul id="list">
+		<li>下载</li>
+		<li>删除</li>
+		<li>移动到</li>
+		<li>重命名</li>
+		<li>分享</li>
+	</ul>
+</body>
+</html>
