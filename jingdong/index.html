@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>京东预览图</title>
+		<script src="index.js"></script>
+		<style>
+			#box{
+				width: 350px;
+				height: 350px;
+				border: 1px solid black;
+				position: relative;
+				cursor: move;
+			}
+			#mask{
+				width: 175px;
+				height: 175px;
+				background-color: rgba(255,255,0,0.3);
+				position: absolute;
+				left: 0px;
+				top: 0px;
+				display: none;
+			}
+			#box2{
+				width: 400px;
+				height: 400px;
+				border: 1px solid black;
+				position: absolute;
+				left: 400px;
+				top: 8px;
+				overflow: hidden;
+				display: none;
+			}
+			#big{
+				width: 800px;
+				height: 800px;
+				position: absolute;
+				left: 0px;
+				top: 0px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="box">
+			<div id="mask"></div>
+			<img src="img/small.jpg" id="small" />
+		</div>
+		<div id="box2">
+			<img src="img/big.jpg" id="big"/>
+		</div>
+	</body>
+</html>
