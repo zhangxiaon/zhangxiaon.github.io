@@ -32,7 +32,7 @@ a{
 .head .head_left{
 	width: 645px;
 	height: 27px;
-	background: url(../img/3-22_logo.jpg) no-repeat;
+	background: url(img/3-22_logo.jpg) no-repeat;
 	float: left;
 }
 .head_left a{
@@ -62,7 +62,7 @@ a{
 .content .content_top{
 	height: 36px;
 	border: 1px solid #5b88b8;
-	background: url(../img/3-21_6.jpg) repeat-x;
+	background: url(img/3-21_6.jpg) repeat-x;
 	color:#ffffff;
 	line-height: 36px;
 	padding-left: 20px;
@@ -118,10 +118,10 @@ a{
 	margin-right: -1px;
 	line-height: 34px;
 	text-align: center;
-	background: url(../img/3-21_8.jpg) repeat-x;
+	background: url(img/3-21_8.jpg) repeat-x;
 }
 .type:hover{
-	background: url(../img/3-21_7.jpg) repeat-x;
+	background: url(img/3-21_7.jpg) repeat-x;
 	color: #fff;
 	font-weight: bold;
 	cursor: pointer;
