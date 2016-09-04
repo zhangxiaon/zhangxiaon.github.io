@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<!--<meta name="viewport" content="width=device-width, initial-scale=1 minimum-scale=1,maximum-scale=1,user-scalable=no" />-->
+		<script>
+			var num = 1 / window.devicePixelRatio;
+			document.write('<meta name="viewport" content="width=device-width,initial-scale='+num+',minimum-scale='+num+',maximum-scale='+num+',user-scalable=no" />')
+			//alert(document.documentElement.clientWidth);
+			var fz = document.documentElement.clientWidth / 10;
+			document.getElementsByTagName("html")[0].style.fontSize = fz + "px";
+		</script>
+		<link rel="stylesheet" href="./css/reset.css" />
+		<link rel="stylesheet" href="./css/global.css" />
+		<link rel="stylesheet" href="./css/index.css" />
+	</head>
+	<body>
+		<header class ="head clearfix">
+			<div class="head_bg"></div>
+			<div class="head_top clearfix">
+				<div class="button_type fl"></div>
+				<div class="search_box fl">
+					<div class="input"></div>
+					<div class="input_text">搜索商品/店铺</div>
+				</div>
+				<div class="login fl"></div>
+			</div>
+		</header>
+		<section class="content">
+			<div class="big_bg" id="head">
+				<ul class="item clearfix">
+					<li class="list fl"></li>
+					<li class="list fl"></li>
+					<li class="list fl"></li>
+					<li class="list fl"></li>
+					<li class="list fl"></li>
+					<li class="list fl"></li>
+					<li class="list fl"></li>
+				</ul>
+			</div>
+			<ul class="navigation clearfix">
+				<li class="nav_list fl">
+					<div class="list_pic"></div>
+					<div class="list_text">积分乐园</div>
+				</li>
+				<li class="nav_list fl">
+					<div class="list_pic"></div>
+					<div class="list_text">充值</div>
+				</li>
+				<li class="nav_list fl">
+					<div class="list_pic"></div>
+					<div class="list_text">天猫国际</div>
+				</li>
+				<li class="nav_list fl">
+					<div class="list_pic"></div>
+					<div class="list_text">聚划算</div>
+				</li>
+				<li class="nav_list fl">
+					<div class="list_pic"></div>
+					<div class="list_text">天猫超市</div>
+				</li>
+				<li class="nav_list fl">
+					<div class="list_pic"></div>
+					<div class="list_text">免费试用</div>
+				</li>
+				<li class="nav_list fl">
+					<div class="list_pic"></div>
+					<div class="list_text">出游清单</div>
+				</li>
+				<li class="nav_list fl">
+					<div class="list_pic"></div>
+					<div class="list_text">粉丝趴</div>
+				</li>
+				<li class="nav_list fl">
+					<div class="list_pic"></div>
+					<div class="list_text">领钱了</div>
+				</li>
+				<li class="nav_list fl">
+					<div class="list_pic"></div>
+					<div class="list_text">分类</div>
+				</li>
+			</ul>
+			<div class="content_top">
+				<div class="hotdot clearfix">
+					<div class="hotdot_logo fl"></div>
+					<div class="hotdot_content fl clearfix">
+						<span class="fl">星期六女鞋低于3折，满199元减20元</span>
+						<span class="color fl">低于3折+折后满额减</span>
+					</div>
+				</div>
+				<div class="lvyou clearfix">
+					<div class="lvyou_left fl clearfix">
+						<div class="left_text fl">
+							<span >晒美照赢大奖！</span>
+							<span class="red">天猫出游季</span>
+						</div>
+						<div class="left_pic fl"></div>
+					</div>
+					<div class="lvyou_right fr clearfix">
+						<div class="right_text fl">
+							<span>五一出游</span>
+							<span class="red">提前订酒店</span>
+						</div>
+						<div class="right_pic fl"></div>
+					</div>
+				</div>
+			</div>
+			<div class="content_middle">
+				<div class="biqiang">
+					<div class="biqiang_title title">
+						<div class="line fl"></div>
+						<div class="title_bg fl"></div>
+						<div class="title_text fl">必抢</div>
+						<div class="line fl"></div>
+					</div>
+					<ul class="biqiang_item clearfix">
+						<li class="biqiang_list fl">
+							<div class="list_title">翻倍减</div>
+							<div class="list_img"></div>
+							<div class="list_price">
+								<span class="now">￥279</span>
+								<span class="before">￥598</span>
+							</div>
+						</li>
+						<li class="biqiang_list fl">
+							<div class="list_title">女神范</div>
+							<div class="list_img"></div>
+							<div class="list_price">
+								<span class="now">￥279</span>
+								<span class="before">￥598</span>
+							</div>
+						</li>
+						<li class="biqiang_list fl">
+							<div class="list_title">小白鞋</div>
+							<div class="list_img"></div>
+							<div class="list_price">
+								<span class="now">￥279</span>
+								<span class="before">￥598</span>
+							</div>
+						</li>
+						<li class="biqiang_list fl last">
+							<div class="list_title">美食家</div>
+							<div class="list_img"></div>
+							<div class="list_price">
+								<span class="now">￥279</span>
+								<span class="before">￥598</span>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="shishangfan">
+					<div class="shishangfan_title title">
+						<div class="line fl"></div>
+						<div class="title_bg fl"></div>
+						<div class="title_text fl">时尚范</div>
+						<div class="line fl"></div>
+					</div>
+					<ul class="shishangfan_item clearfix">
+						<li class="shishangfan_list fl">
+							<div class="info">焕新</div>
+							<div class="sub_title">品牌精选新品</div>
+							<div class="shishangfan_pic"></div>
+						</li>
+						<li class="shishangfan_list fl">
+							<div class="info">焕新</div>
+							<div class="sub_title">品牌精选新品</div>
+							<div class="shishangfan_pic"></div>
+						</li>
+						<li class="shishangfan_list fl">
+							<div class="info">焕新</div>
+							<div class="sub_title">品牌精选新品</div>
+							<div class="shishangfan_pic"></div>
+						</li>
+						<li class="shishangfan_list fl">
+							<div class="info">焕新</div>
+							<div class="sub_title">品牌精选新品</div>
+							<div class="shishangfan_pic"></div>
+						</li>
+					</ul>
+				</div>
+				<div class="banner"></div>
+				<div class="kuwan">
+					<div class="kuwan_title title">
+						<div class="line fl"></div>
+						<div class="title_bg fl"></div>
+						<div class="title_text fl">潮流酷玩</div>
+						<div class="line fl"></div>
+					</div>
+					<ul class="kuwan_item clearfix">
+						<li class="kuwan_list fl">
+							<div class="info">苏宁易购</div>
+							<div class="sub_title">6s低价抢</div>
+							<div class="kuwan_pic"></div>
+						</li>
+						<li class="kuwan_list fl">
+							<div class="info">苏宁易购</div>
+							<div class="sub_title">6s低价抢</div>
+							<div class="kuwan_pic"></div>
+						</li>
+						<li class="kuwan_list fl">
+							<div class="info">苏宁易购</div>
+							<div class="sub_title">6s低价抢</div>
+							<div class="kuwan_pic"></div>
+						</li>
+					</ul>
+				</div>
+				<div class="aishenghuo">
+					<div class="aishenghuo_title title">
+						<div class="line fl"></div>
+						<div class="title_bg fl"></div>
+						<div class="title_text fl">爱生活</div>
+						<div class="line fl"></div>
+					</div>
+					<ul class="aishenghuo_item clearfix">
+						<li class="aishenghuo_list fl">
+							<div class="info">生活家</div>
+							<div class="sub_title">好生活并不贵</div>
+							<div class="aishenghuo_pic"></div>
+						</li>
+						<li class="aishenghuo_list fl">
+							<div class="info">生活家</div>
+							<div class="sub_title">好生活并不贵</div>
+							<div class="aishenghuo_pic"></div>
+						</li>
+						<li class="aishenghuo_list fl">
+							<div class="info">生活家</div>
+							<div class="sub_title">好生活并不贵</div>
+							<div class="aishenghuo_pic"></div>
+						</li>
+						<li class="aishenghuo_list last fl">
+							<div class="info">生活家</div>
+							<div class="sub_title">好生活并不贵</div>
+							<div class="aishenghuo_pic"></div>
+						</li>
+					</ul>
+				</div>
+				<div class="pinpaizixun">
+					<div class="pinpaizixun_title title">
+						<div class="line fl"></div>
+						<div class="title_bg fl"></div>
+						<div class="title_text fl">品牌资讯</div>
+						<div class="line fl"></div>
+					</div>
+					<ul class="pinpaizixun_item clearfix">
+						<li class="pinpaizixun_list fl">
+							<div class="info">品牌街</div>
+							<div class="sub_title">明星自创品牌</div>
+							<div class="pinpaizixun_pic"></div>
+						</li>
+						<li class="pinpaizixun_list fl">
+							<div class="info">品牌街</div>
+							<div class="sub_title">明星自创品牌</div>
+							<div class="pinpaizixun_pic"></div>
+						</li>
+						<li class="pinpaizixun_list fl">
+							<div class="info">品牌街</div>
+							<div class="sub_title">明星自创品牌</div>
+							<div class="pinpaizixun_pic"></div>
+						</li>
+					</ul>
+				</div>
+				<div class="guojihaigou">
+					<div class="guojihaigou_title title">
+						<div class="line fl"></div>
+						<div class="title_bg fl"></div>
+						<div class="title_text fl">国际海购</div>
+						<div class="line fl"></div>
+					</div>
+					<ul class="guojihaigou_item clearfix">
+						<li class="guojihaigou_list fl">
+							<div class="info">进口特价</div>
+							<div class="sub_title">0元购卸妆水</div>
+							<div class="guojihaigou_pic"></div>
+						</li>
+						<li class="guojihaigou_list fl">
+							<div class="info">进口特价</div>
+							<div class="sub_title">0元购卸妆水</div>
+							<div class="guojihaigou_pic"></div>
+						</li>
+						<li class="guojihaigou_list fl last">
+							<div class="info">进口特价</div>
+							<div class="sub_title">0元购卸妆水</div>
+							<div class="guojihaigou_pic"></div>
+						</li>
+					</ul>
+				</div>
+				<div class="pinpaitemai">
+					<div class="pinpaitemai_title title">
+						<div class="line fl"></div>
+						<div class="title_bg fl"></div>
+						<div class="title_text fl">品牌特卖</div>
+						<div class="line fl"></div>
+					</div>
+					<ul class="pinpaitemai_item clearfix">
+						<li class="pinpaitemai_list fl"></li>
+						<li class="pinpaitemai_list fr"></li>
+					</ul>
+				</div>
+				<div class="banner"></div>
+				<div class="remenhangye">
+					<div class="remenhangye_title title">
+						<div class="line fl"></div>
+						<div class="title_bg fl"></div>
+						<div class="title_text fl">热门行业</div>
+						<div class="line fl"></div>
+					</div>
+					<ul class="remenhangye_item clearfix">
+						<li class="remenhangye_list fl clearfix">
+							<div class="list_left fl">
+								<div class="left_info">
+									<div class="top">天猫女装</div>
+									<div class="bottom">早春穿搭</div>
+								</div>
+								<div class="left_img"></div>
+							</div>
+							<div class="list_right fl"></div>
+						</li>
+						<li class="remenhangye_list fr clearfix">
+							<div class="list_left fl">
+								<div class="left_info">
+									<div class="top">男女鞋</div>
+									<div class="bottom">四月踏春季</div>
+								</div>
+								<div class="left_img"></div>
+							</div>
+							<div class="list_right fl"></div>
+						</li>
+					</ul>
+					<ul class="remaihangye_bottom clearfix">
+						<li class="bottom_list fl">
+							<div class="list_info">
+								<div class="top">运动户外</div>
+								<div class="bottom">小积分抽大奖</div>
+							</div>
+							<div class="list_bg"></div>
+						</li>
+						<li class="bottom_list fl">
+							<div class="list_info">
+								<div class="top">运动户外</div>
+								<div class="bottom">小积分抽大奖</div>
+							</div>
+							<div class="list_bg"></div>
+						</li>
+						<li class="bottom_list fl">
+							<div class="list_info">
+								<div class="top">运动户外</div>
+								<div class="bottom">小积分抽大奖</div>
+							</div>
+							<div class="list_bg"></div>
+						</li>
+						<li class="bottom_list fl">
+							<div class="list_info">
+								<div class="top">运动户外</div>
+								<div class="bottom">小积分抽大奖</div>
+							</div>
+							<div class="list_bg"></div>
+						</li>
+						<li class="bottom_list fl">
+							<div class="list_info">
+								<div class="top">运动户外</div>
+								<div class="bottom">小积分抽大奖</div>
+							</div>
+							<div class="list_bg"></div>
+						</li>
+						<li class="bottom_list fl">
+							<div class="list_info">
+								<div class="top">运动户外</div>
+								<div class="bottom">小积分抽大奖</div>
+							</div>
+							<div class="list_bg"></div>
+						</li>
+						<li class="bottom_list fl">
+							<div class="list_info">
+								<div class="top">运动户外</div>
+								<div class="bottom">小积分抽大奖</div>
+							</div>
+							<div class="list_bg"></div>
+						</li>
+						<li class="bottom_list fl">
+							<div class="list_info">
+								<div class="top">运动户外</div>
+								<div class="bottom">小积分抽大奖</div>
+							</div>
+							<div class="list_bg"></div>
+						</li>
+					</ul>
+				</div>
+				<div class="banner"></div>
+				<div class="pinpaiqijian">
+					<div class="pinpaiqijian_title title">
+						<div class="line fl"></div>
+						<div class="title_bg fl"></div>
+						<div class="title_text fl">品牌旗舰</div>
+						<div class="line fl"></div>
+					</div>
+					<ul class="pinpaiqijian_item clearfix">
+						<li class="pinpaiqijian_list fl">
+							<div class="list_top">
+								<div class="top_left fl"></div>
+								<div class="top_right fl">
+									<div class="right_bg"></div>
+									<div class="right_bg"></div>
+								</div>
+							</div>
+							<div class="list_bottom clearfix">
+								<div class="bottom_bg fl"></div>
+								<div class="bottom_text fl">
+									<div class="name">影时光官方旗舰店</div>
+									<div class="num">5.9万粉丝</div>
+								</div>
+							</div>
+						</li>
+						<li class="pinpaiqijian_list fl">
+							<div class="list_top">
+								<div class="top_left fl"></div>
+								<div class="top_right fl">
+									<div class="right_bg"></div>
+									<div class="right_bg"></div>
+								</div>
+							</div>
+							<div class="list_bottom clearfix">
+								<div class="bottom_bg fl"></div>
+								<div class="bottom_text fl">
+									<div class="name">影时光官方旗舰店</div>
+									<div class="num">5.9万粉丝</div>
+								</div>
+							</div>
+						</li>
+						<li class="pinpaiqijian_list fl">
+							<div class="list_top">
+								<div class="top_left fl"></div>
+								<div class="top_right fl">
+									<div class="right_bg"></div>
+									<div class="right_bg"></div>
+								</div>
+							</div>
+							<div class="list_bottom clearfix">
+								<div class="bottom_bg fl"></div>
+								<div class="bottom_text fl">
+									<div class="name">影时光官方旗舰店</div>
+									<div class="num">5.9万粉丝</div>
+								</div>
+							</div>
+						</li>
+						<li class="pinpaiqijian_list fl">
+							<div class="list_top">
+								<div class="top_left fl"></div>
+								<div class="top_right fl">
+									<div class="right_bg"></div>
+									<div class="right_bg"></div>
+								</div>
+							</div>
+							<div class="list_bottom clearfix">
+								<div class="bottom_bg fl"></div>
+								<div class="bottom_text fl">
+									<div class="name">影时光官方旗舰店</div>
+									<div class="num">5.9万粉丝</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="zhutishichang">
+					<div class="zhutishichang_title title">
+						<div class="line fl"></div>
+						<div class="title_bg fl"></div>
+						<div class="title_text fl">主题市场</div>
+						<div class="line fl"></div>
+					</div>
+					<ul class="zhutishichang_item clearfix">
+						<li class="zhutishichang_list fl">
+							<div class="list_info">
+								<div class="top">布置小家</div>
+								<div class="bottom">格调摆件低价</div>
+							</div>
+							<div class="list_bg"></div>
+						</li>
+						<li class="zhutishichang_list fl">
+							<div class="list_info">
+								<div class="top">布置小家</div>
+								<div class="bottom">格调摆件低价</div>
+							</div>
+							<div class="list_bg"></div>
+						</li>
+						<li class="zhutishichang_list fl">
+							<div class="list_info">
+								<div class="top">布置小家</div>
+								<div class="bottom">格调摆件低价</div>
+							</div>
+							<div class="list_bg"></div>
+						</li>
+						<li class="zhutishichang_list fl">
+							<div class="list_info">
+								<div class="top">布置小家</div>
+								<div class="bottom">格调摆件低价</div>
+							</div>
+							<div class="list_bg"></div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="content_bottom">
+				<div class="bottom_title">
+					<div class="line_22 fl"></div>
+					<div class="title_name fl">猜你喜欢(08:00更新)</div>
+					<div class="line_22 fl"></div>
+				</div>
+				<ul class="maybe clearfix">
+					<li class="maybe_list fl">
+						<div class="pic"></div>
+						<div class="text_info">[热销] 【定金】 Benelli贝纳利小黄龙BJ250-</div>
+						<div class="price">￥1000.0</div>
+					</li>
+					<li class="maybe_list fr">
+						<div class="pic"></div>
+						<div class="text_info">[热销] 【定金】 Benelli贝纳利小黄龙BJ250-</div>
+						<div class="price">￥1000.0</div>
+					</li>
+					<li class="maybe_list fl height466 tebie">
+						<div class="tebie_pic"></div>
+						<div class="tebie_title">今日新发现</div>
+						<div class="tebie_subtitle">带你发现新的世界</div>
+					</li>
+					<li class="maybe_list fr height466">
+						<div class="pic"></div>
+						<div class="text_info padding-top23">[热销] 【定金】 Benelli贝纳利小黄龙BJ250-</div>
+						<div class="price">￥1000.0</div>
+					</li>
+				</ul>
+				<ul class="small_item">
+					<li class="small_list first fl">连衣裙</li>
+					<li class="small_list four fl">单反相机</li>
+					<li class="small_list fl">沙发</li>
+					<li class="small_list fl">女包</li>
+					<li class="small_list fl">沙发</li>
+					<li class="small_list fl">运动鞋</li>
+					<li class="small_list fl">避孕套</li>
+					<li class="small_list fl">丝袜</li>
+				</ul>
+				<ul class="maybe clearfix maybetwo">
+					<li class="maybe_list fl">
+						<div class="pic"></div>
+						<div class="text_info">[热销] 【定金】 Benelli贝纳利小黄龙BJ250-</div>
+						<div class="price">￥1000.0</div>
+					</li>
+					<li class="maybe_list fr">
+						<div class="pic"></div>
+						<div class="text_info">[热销] 【定金】 Benelli贝纳利小黄龙BJ250-</div>
+						<div class="price">￥1000.0</div>
+					</li>
+					<li class="maybe_list fl height466 tebie">
+						<div class="tebie_pic"></div>
+						<div class="tebie_title">今日新发现</div>
+						<div class="tebie_subtitle">带你发现新的世界</div>
+					</li>
+					<li class="maybe_list fr height466">
+						<div class="pic"></div>
+						<div class="text_info padding-top23">[热销] 【定金】 Benelli贝纳利小黄龙BJ250-</div>
+						<div class="price">￥1000.0</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<footer class="foot">
+			<div class="foot_box"></div>
+		</footer>
+		<div class="fixed">
+			<a href="#head" target="_self">回到顶部</a>
+		</div>
+	</body>
+</html>

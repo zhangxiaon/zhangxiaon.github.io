@@ -1,0 +1,502 @@
+body{
+	background-color: #f5f5f5;;
+}
+body{
+	font-size: 12px;
+	font-family: arial,"微软雅黑","宋体";
+}
+.alone{
+	width: 48px;
+	height: 42px;
+	position: absolute;
+	left: 71px;
+	top: 24px;
+}
+.bg{
+	background-image: url(../image/index_bg.png);
+	background-repeat: no-repeat;
+}
+.title_bg{
+	background-color: #ffffff;
+	z-index: 10;
+	position: relative;
+}
+.title{
+	width: 1190px;
+	margin: 0px auto;
+}
+.title_top .shuang11{
+	width: 216px;
+	height: 84px;
+	background-position: 0px -72px;
+	margin: 1px 111px 27px 14px;
+}
+.title_top .search{
+	width: 540px;
+	margin: 25px 0px 17px 0px;
+}
+.search_top .shurukuang{
+	width: 448px;
+	height: 32px;
+	border: 3px solid #c40000;
+	border-right: none;
+	outline:none
+}
+.search_top .button{
+	width: 89px;
+	height: 38px;
+	border: none;
+	background-color: #c40000;
+	color: #ffffff;
+	font-size: 16px;
+	text-align: center;
+	line-height: 36px;
+	padding-top: 2px;
+}
+.search_top .button:hover{
+	cursor: pointer;
+}
+.search .search_bottom{
+	height: 32px;
+	line-height: 32px;
+}
+.search_bottom .search_line{
+	margin: 8px 12px 0px 12px;
+}
+.search_bottom a{
+	color: #999999;
+}
+.search_bottom .kaishannv{
+	word-spacing: -2px;
+}
+.search_bottom .text_red{
+	color: #c40000;
+}
+.title_top .yashi{
+	width: 178px;
+	height: 112px;	
+}
+.yashi .yashi_pic{
+	width: 57px;
+	height: 65px;
+	margin-top: 17px;
+	margin-bottom: 30px;
+	background-position: 0px -156px;
+}
+.yashi .yashi_text{
+	width: 108px;
+	padding-top: 31px;
+	padding-left: 13px;
+	line-height: 19px;
+	font-weight: bold;
+}
+.yashi_text a{
+	display: block;
+	color: #000000;
+}
+.yashi_text .text_red{
+	color: #c40000;
+}
+.title .title_bottom{
+	height: 33px;
+	font-size: 14px;
+}
+.title_bottom .shop_list{
+	width: 190px;
+	height: 32px;
+	text-align: center;
+	margin-right: 1px;
+	padding-top: 1px;
+	background-color: #c40000;
+	position: relative;
+}
+.title_bottom .shop_list .list_title,.title_bottom a{
+	line-height: 32px;
+	color: #000000;
+	font-weight: bold;
+}
+.title_bottom a{
+	padding-left: 22px;
+	padding-right: 22px;
+}
+.shop_list .list_text{
+	width: 190px;
+	height: 480px;
+	position: absolute;
+	left: 0px;
+	top: 33px;
+	z-index: 10;
+}
+.list_text .list_text_bg{
+	width: 190px;
+	height: 480px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	background-color: #000000;
+	opacity: 0.8;
+}
+.list_text .list_text_item{
+	width:190px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	color: #fff;
+	line-height: 30px;
+	font-size: 12px;
+}
+.list_text_item .item:hover{
+	cursor: pointer;
+	background-color: #fff;
+	color: red;                                   /*item的伪类*/
+}
+.list_text_item .item:hover .jingxuan_list{
+	display: block;
+}
+.list_text_item .jingxuan{
+	width: 16px;
+	height: 15px;
+	background-position: 0px -221px;
+	margin:7px 13px 0px 19px;
+}
+.list_text_item .jingxuan{
+	width: 16px;
+	height: 15px;
+	background-position: 0px -221px;
+	margin:7px 13px 0px 19px;
+}
+.item .jingxuan_list{
+	width: 70px;
+	height: 480px;
+	position: absolute;
+	left: 190px;
+	top: 0px;
+	display: none;
+}
+.jingxuan_list .jingxuan_list_bg{
+	width: 70px;
+	height: 480px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	background-color: #f7f7f7;
+}
+.jingxuan_list .jingxuan_list_text{
+	width: 49px;
+	height: 474px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	padding: 6px 10px 0px 11px;
+}
+.jingxuan_list_text a{
+	display: block;
+	border-bottom: 1px dotted #d9d9d9;
+	padding: 0px;
+	padding-top: 2px;
+	line-height: 36px;
+}
+.big_bg{
+	height: 480px;
+	background: url(../image/big_bg.jpg) no-repeat center;
+	position: relative;
+}
+.big_bg .bg_botton{
+	width: 100%;
+	height: 20px;
+	position: absolute;
+	bottom:6px;
+	left: 0px;
+	text-align: center;
+}
+.bg_botton .btn_list{
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	background-color: #000000;
+	text-align: center;
+	line-height: 20px;
+	margin-left: 6px;
+	color: #fff;
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
+	z-index: 10;
+}
+.bg_botton .btn_list:hover{
+	cursor: pointer;
+}
+.bg_botton .btn_list:active{
+	background-color: red;
+}
+.content{
+	width: 1190px; 
+	margin: 0px auto;
+}
+.brand .brand_top{
+	height: 40px;
+	padding-top: 30px;
+}
+.brand_top .brand_top_left .chinese{
+	font-size: 16px;
+	line-height: 40px;
+}
+.brand_top .brand_top_left .english{
+	padding: 16px 42px 0px 9px;
+}
+.brand_top .brand_top_middle{
+	line-height: 14px;
+	padding-top: 16px;
+}
+.brand_top .brand_top_middle li{
+	margin-right: 34px;
+}
+.brand_top .brand_top_middle li:hover{
+	border-bottom: 2px solid #000000;
+	font-weight: bold;
+}
+.brand_top .brand_top_right{
+	padding-right: 192px;
+	padding-top: 16px;
+	line-height: 14px;
+}
+.brand_top_right .brand_refresh{
+	width: 14px;
+	height: 12px;
+	background-position: 0px -472px;
+	margin-top: 1px;
+	margin-right: 3px;
+	overflow: hidden;
+}
+.brand .brand_bottom{
+	height: 326px;
+	margin-bottom: 30px;
+}
+.brand_bottom .brand_bottom_left{
+	width: 190px;
+	height: 326px;
+	background-color: #ffffff;
+}
+.brand_bottom .brand_bottom_middle{
+	width: 804px;
+	height: 326px;
+	padding-left: 4px;
+	padding-right: 2px;
+}
+.brand_bottom_middle li{
+	width: 132px;
+	height: 80px;
+	padding: 0px 2px 2px 0px;
+}
+.brand_bottom .brand_bottom_right{
+	width: 182px;
+	height: 318px;
+	background-color: #ffffff;
+	padding: 4px;
+}
+.banner{
+	height: 90px;
+	margin-bottom: 30px;
+}
+.content .floor{
+	margin-bottom: 30px;
+}
+.floor .floor_left{
+	width: 191px;
+	height: 422px;
+	border-right: 1px solid #e5e5e5;
+}
+.floor_info{
+	width: 191px;
+	height: 90px;
+	background-position: 0px -524px;
+	position: relative;
+}
+.one_floor{
+	background-position: 0px -524px;
+}
+.two_floor{
+	background-position: 0px -1116px;
+}
+.floor_info .floor_num{
+	width: 22px;
+	height: 15px;
+	position: absolute;
+	left: 8px;
+	top: 10px;
+}
+.floor_num span{
+	width: 22px;
+	height: 15px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	color: #fff;
+	font-size: 16px;
+}
+.floor_info .floor_fenlei_one{
+	width: 24px;
+	height: 41px;
+	position: absolute;
+	left: 39px;
+	top: 25px;
+}
+.floor_fenlei_one .fenlei_pic{
+	width: 24px;
+	height: 21px;
+	background-position: 0px -614px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.alone .alone_pic{
+	width: 11px;
+	height: 24px;
+	background-position: 0px -1030px;
+	position: absolute;
+	left: 19px;
+	top: 0px;
+}
+.floor_fenlei_one .fenlei_text{
+	width: 24px;
+	height: 12px;
+	position: absolute;
+	left: 0px;
+	top: 21px;
+	padding-top: 8px;
+}
+.alone .alone_text{
+	width: 48px;
+	height: 12px;
+	position: absolute;
+	left: 0px;
+	top: 30px;
+	padding-top: 6px;
+}
+.fenlei_text span{
+	color: #fff;
+	line-height: 12px;
+}
+.alone_text span{
+	color: #fff;
+	line-height: 12px;
+}
+.floor_info .line40{
+	width: 1px;
+	height: 40px;
+	background-position: 0px -484px;
+	position: absolute;
+	left: 95px;
+	top: 24px;
+}
+.floor_info .floor_fenlei_two{
+	width: 24px;
+	height: 41px;
+	position: absolute;
+	left: 128px;
+	top: 25px;
+}
+.floor_fenlei_two .fenlei_pic_two{
+	width: 24px;
+	height: 21px;
+	background-position: 0px -635px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.floor_fenlei_two .fenlei_text{
+	width: 24px;
+	height: 12px;
+	position: absolute;
+	left: 0px;
+	top: 21px;
+	padding-top: 8px;
+}
+.floor .floor_brand{
+	width: 191px;
+	height: 202px;
+	position: relative;
+}
+.floor_brand .last_brand{
+	width: 14px;
+	height: 20px;
+	background-position: 0px -1096px;
+	position: absolute;
+	top: 95px;
+	left: 12px;
+}
+.floor_brand .next_brand{
+	width: 14px;
+	height: 20px;
+	background-position: 0px -1076px;
+	position: absolute;
+	top: 95px;
+	right: 13px;
+}
+.floor .floor_item{
+	width: 156px;
+	height: 112px;
+	padding: 10px 0px 8px 35px;
+	font-weight: bold;
+	background-color: #fafaf8;
+}
+.floor .twofloor_item{
+	width: 191px;
+	height: 130px;
+	padding-bottom: 6px;*/
+	background-color: #fafaf8;
+}
+.floor_item .floor_item_list{
+	line-height: 28px;
+	width: 75px;
+	text-align: left;
+}
+.twofloor_item .twofloor_item_list{
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	color:#a7a7a7;
+	margin-bottom: 3px;
+}
+.twofloor_item .threelist{
+	height: 22px;
+	padding-left: 49px;
+	padding-bottom: 8px;
+}
+.threelist .threelist_pic{
+	width: 22px;
+	height: 22px;
+	background-position: 0px -1054px;
+	margin-right: 7px;
+}
+.threelist .threelist_text{
+	height: 22px;
+	line-height: 22px;
+}
+.floor_item_list a{
+	color: #000;
+}
+.floor .floor_middle{
+	width: 399px;
+	height: 422px;
+}
+.floor .floor_right{
+	width: 597px;
+	height: 422px;
+}
+.floor_right .list{
+	width: 198px;
+	height: 422px;
+	border-left: 1px solid #e5e5e5;
+}
+.list .list_top{
+	width: 198px;
+	height: 255px;
+	border-bottom: 1px solid #e5e5e5;
+	display: block;
+}
+.list .list_bottom{
+	width: 198px;
+	height: 166px;
+	display: block;
+}

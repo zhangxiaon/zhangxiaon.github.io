@@ -1,0 +1,379 @@
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.clearfix{
+	*zoom: 1;
+}
+.bg{
+	background-image: url(../image/index_bg.png);
+	background-repeat: no-repeat;
+}
+.line14{
+	width: 1px;
+	height: 14px;
+	background-position: 0px -35px;
+	overflow: hidden;
+}
+/*这是顶部公用样式*/
+.head{
+	border-bottom: 1px solid #e5e5e5;
+	background-color: #f2f2f2;
+}
+.head .login{
+	width: 1183px;
+	height: 24px;
+	margin: 0px auto;
+	padding-top: 2px;
+	padding-right: 7px;
+	color: #999999;
+	line-height: 24px;
+}
+.login a{
+	color: #999999;
+}
+.login_left a,.login_left span{
+	margin-right: 20px;
+}
+.login_left a:hover{
+	color: red;
+}
+.login_left .login_bg{
+	width: 13px;
+	height: 11px;
+	background-position: 0px 0px;
+	margin-right: 3px;
+	margin-top: 6px;
+	overflow: hidden;
+}
+.one{
+	width: 90px;
+}
+.two{
+	width: 56px;
+}
+.three{
+	width: 77px;
+}
+.four{
+	width: 50px;
+}
+.five{
+	width: 92px;
+}
+.six{
+	width: 91px;
+}
+.seven{
+	width: 104px;
+}
+.eight{
+	width: 56px;
+}
+.login_right .shoucangjia{
+	margin-left: 21px;
+}
+.login_right .taobaowang{
+	margin-left: 20px;
+	margin-right: 21px;
+}
+.login_right .sanjiao{
+	width: 6px;
+	height:3px;
+	background-position: 0px -11px;
+	margin-top: 10px;
+	margin-left: 2px;
+	overflow: hidden;
+}
+.login_right .xin{
+	width: 11px;
+	height: 10px;
+	background-position: 0px -14px;
+	margin: 6px 4px 0px 17px;
+	overflow: hidden;
+}
+.login_right .che{
+	width: 12px;
+	height: 11px;
+	background-position: 0px -24px;
+	margin: 6px 4px 0px 20px;
+	overflow: hidden;
+}
+.login_right .login_line{
+	margin: 4px 14px 0px 12px;
+}
+.login_right .phone{
+	width: 8px;
+	height: 12px;
+	background-position: 0px -49px;
+	margin-top: 6px;
+	margin-right: 6px;
+	overflow: hidden;
+}
+.login_right .daohang{
+	width: 11px;
+	height: 11px;
+	background-position: 0px -61px;
+	margin: 6px 5px 0px 18px;
+	overflow: hidden;
+}
+.login_right div:hover a{
+	color: red;
+}
+.login_right div:hover .sanjiao{
+	transform: rotateX(180deg);
+	transition: 1s;
+}
+/*底部公用样式*/
+.bottom{
+	background-color: #ffffff;
+	border-top: 1px solid #d1d7dc;
+	border-bottom: 2px solid #c40000;
+}
+.bottom .link{
+	width: 1190px;
+	height: 363px;
+	margin: 0px auto;
+}
+.link .link_top{
+	height: 50px;
+	border-bottom: 1px solid #ededed;
+	padding: 50px 0px 50px 21px;
+}
+.link_top .link_top_tese{
+	width: 281px;
+	height: 50px;
+}
+.link_top_tese .tese_pic{
+	width: 50px;
+	height: 50px;
+	background-position: 0px -700px;
+	margin-left: 30px;
+	margin-right: 16px;
+	*display: inline;
+}
+.link_top li:nth-child(1) div:nth-child(1){
+	background-position: 0px -700px;
+}
+.link_top li:nth-child(2) div:nth-child(1){
+	background-position: -50px -700px;
+}
+.link_top li:nth-child(3) div:nth-child(1){
+	background-position: -100px -700px;
+}
+.link_top li:nth-child(4) div:nth-child(1){
+	background-position: -150px -700px;
+}
+.link_top_tese .tese_text{
+	width: 184px;
+	height: 50px;
+	line-height: 24px;
+	font-size: 16px;
+	*display: inline-block;
+	*zoom: 1;
+}
+.link_top_tese .tese_text dd{
+	color: #868686;
+}
+.link_top_tese .line44{
+	width: 1px;
+	height: 44px;
+	background-position: 0px -656px;
+	margin-top: 6px;
+}
+.link .link_bottom{
+	height: 172px;
+	padding: 21px 0px 19px 52px;
+}
+.link_bottom .link_bottom_item{
+	width: 238px;
+}
+.link_bottom_item span{
+	line-height: 32px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.link_bottom_item a{
+	line-height: 20px;
+	color: #8b8b8b;
+}
+.link_bottom .erweima{
+	width: 101px;
+	line-height: 32px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.erweima .erweima_bg{
+	width: 98px;
+	height: 98px;
+	margin-top: 2px;
+	margin-left: 3px;
+	background-position: 0px -750px;
+}
+.foot{
+	background-color: #000000;
+}
+.foot .copyright{
+	width: 1180px;
+	height: 230px;
+	margin: 0px auto;
+	padding-top: 12px;
+	padding-left: 10px;
+	position: relative;
+}
+.copyright .tmall_logo{
+	width: 69px;
+	height: 23px;
+	position: absolute;
+	left: 49px;
+	top: -25px;
+}
+.tmall_logo .tmall_pic{
+	width: 69px;
+	height: 23px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	background-position: 0px -860px;
+}
+.copyright .tmall_info{
+	height: 25px;
+	line-height: 25px;
+	word-spacing: 1px;
+}
+.copyright .otherlink{
+	height: 25px;
+	line-height: 25px;
+}
+.otherlink div{
+	width: 1px;
+	height: 12px;
+	background-position: 0px -848px;
+	margin: 6px 6px 0px 5px;
+}
+.tmall_info a,.otherlink a{
+	color:#fff;
+}
+.copyright .xukezheng{
+	height: 20px;
+	line-height: 20px;
+	margin-top: 9px;
+	color:#a4a4a4;
+}
+.copyright .time{
+	color:#686868;
+}
+.copyright .img{
+	height: 30px;
+	margin-top: 9px;
+	word-spacing: 8px;
+}
+/*侧边栏公用样式*/
+.cebian{
+	width: 34px;
+	height: 1024px;
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+	background-color: #000;
+	*display: none;
+	z-index: 15;
+}
+.cebian .cebianbox{
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	right: 10px;
+	bottom: 45px;
+	background-position: 0px -883px;
+}
+.cebian .cebianbox2{
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	right: 10px;
+	bottom: 80px;
+	background-position: 0px -898px;
+}
+.cebian .cebianbox3{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	right: 8px;
+	bottom: 209px;
+	background-position: 0px -914px;
+}
+.cebian .cebianbox4{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	right: 8px;
+	bottom: 259px;
+	background-position: 0px -934px;
+}
+.cebian .cebianbox5{
+	width: 20px;
+	height: 17px;
+	position: absolute;
+	right: 8px;
+	bottom: 309px;
+	background-position: 0px -953px;
+}
+.cebian .cebianbox6{
+	width: 20px;
+	height: 15px;
+	position: absolute;
+	right: 8px;
+	bottom: 359px;
+	background-position: 0px -970px;
+}
+.cebian .cebianbox7{
+	width: 20px;
+	height: 18px;
+	position: absolute;
+	right: 7px;
+	bottom: 409px;
+	background-position: 0px -985px;
+
+}
+.cebian .cebianbox8{
+	width: 25px;
+	height: 98px;
+	border-bottom: 1px solid #444444;
+	border-top: 1px solid #444444;
+	position: absolute;
+	right: 5px;
+	bottom: 459px;
+}
+.cebianbox8 .cebianbox8_pic{
+	width: 19px;
+	height: 15px;
+	position: absolute;
+	right: 3px;
+	top: 19px;
+	background-position: 0px -1003px;
+}
+.cebianbox8 .cebianbox8_text{
+	width: 12px;
+	height: 48px;
+	position: absolute;
+	right: 7px;
+	bottom: 11px;
+	line-height: 16px;
+	color: #fff;
+}
+.cebian .cebianbox9{
+	width: 18px;
+	height: 12px;
+	position: absolute;
+	right: 9px;
+	bottom: 589px;
+	background-position: 0px -1018px;
+}

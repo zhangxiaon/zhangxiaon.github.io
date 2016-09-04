@@ -1,0 +1,217 @@
+body,dl,dd{
+	margin:0px;
+}
+img{
+	border: 0px;
+	vertical-align: top;
+}
+input{
+	padding: 0px;
+	margin: 0px;
+}
+a{
+	text-decoration: none;
+	color: #003399;
+	font-size: 12px;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.box{
+	width: 960px;
+	margin: 0px auto;
+	font-size: 14px;
+}
+.head{
+	height: 27px;
+	background-color: #f9f9f9;
+	padding: 30px 0px 24px 0px;
+}
+.head .head_left{
+	width: 645px;
+	height: 27px;
+	background: url(../image/3-22_logo.jpg) no-repeat;
+	float: left;
+}
+.head_left a{
+	float: left;
+	width: 130px;
+	height: 27px;
+	text-indent: -9999px;
+}
+.head .head_right{
+	height: 27px;
+	float: right;
+	padding-right: 5px;
+	line-height: 28px;
+}
+.head_right .line{
+	width: 1px;
+	height: 12px;
+	background-color: #a899a8;
+	float: right;
+	margin-left: 7px;
+	margin-right: 7px;
+	margin-top: 8px;
+}
+.head_right a{
+	float: right;
+}
+.content .content_top{
+	height: 36px;
+	border: 1px solid #5b88b8;
+	background: url(../image/3-21_6.jpg) repeat-x;
+	color:#ffffff;
+	line-height: 36px;
+	padding-left: 20px;
+}
+.content .content_bottom{
+	border: 1px solid #e0e0e0;
+	border-top: none;
+}
+.content_bottom .main_left{
+	width: 642px;
+	border-right: 1px solid #e0e0e0;
+	background-color: #ffffff;
+	float: left;
+	padding-bottom: 33px;
+}
+.main_left dt{
+	width: 134px;
+	height: 34px;
+	text-align: right;
+	float: left;
+	margin-right: 11px;
+	line-height: 27px;
+}
+.main_left dt span{
+	color: #cd003f;
+}
+.main_left dd{
+	width: 497px;
+	float: left;
+	margin-bottom: 12px;
+}
+.main_left dd .jieshi{
+	height: 34px;
+	line-height: 34px;
+	color: #999999;
+	font-size: 12px;
+}
+.main_left .zhuce{
+	padding: 50px 0px 22px 0px;
+}
+.content_bottom .main_right{
+	width: 228px;
+	height: 235px;
+	background-color: #f5f5f5;
+	float: right;
+	padding: 105px 35px 207px 52px;
+}
+.main_left .type{
+	width: 166px;
+	height: 32px;
+	border: 1px solid #b5b5b5;
+	float: left;
+	margin-right: -1px;
+	line-height: 34px;
+	text-align: center;
+	background: url(../image/3-21_8.jpg) repeat-x;
+}
+.type:hover{
+	background: url(../image/3-21_7.jpg) repeat-x;
+	color: #fff;
+	font-weight: bold;
+	cursor: pointer;
+}
+.main_left .mail{
+	width: 210px;
+	height: 25px;
+	border: 1px solid #ababab;
+}
+.main_left .mail_type{
+	width: 100px;
+	height: 27px;
+}
+.main_left .ps_text{
+	width: 332px;
+	height: 25px;
+	border: 1px solid #ababab;
+}
+.main_left .yanzheng{
+	width: 206px;
+	height: 25px;
+	border: 1px solid #ababab;
+}
+.main_left .yz{
+	position: relative;
+	padding-top: 10px;
+}
+.main_left .yzm{
+	padding-top: 10px;
+}
+.yz .yz_pic{
+	position: absolute;
+	left: 212px;
+	top: -2px;
+}
+.yz .yz_pic .pic{
+	border: 1px solid #e7e7e7;
+}
+.yz .yz_pic a{
+	display: block;
+}
+.yz .yz_text{
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	
+}
+.yz .yz_jieshi{
+	padding-top: 11px;
+}
+.main_left .tongyi{
+	height: 13px;
+	font-size: 12px;
+	padding-bottom: 7px;
+	padding-left: 4px;
+	padding-top: 1px;
+}
+.main_left .one{
+	height: 32px;
+}
+.tongyi span{
+	line-height: 12px;
+	color: #999999;
+}
+.tongyi input{
+	vertical-align: -4px;
+}
+.liji{
+	margin-top: 1px;
+}
+.liji input{
+	width: 119px;
+	height: 37px;
+	border: 1px solid #43952e;
+	line-height: 35px;
+	text-align: center;
+	background-color:#60b54c ;
+	font-size: 14px;
+	color: #fff;
+	font-weight: bold;
+	cursor: pointer;
+}
+.foot{
+	height: 51px;
+	text-align: center;
+	font-size: 12px;
+	color: #999999;
+	line-height: 42px;
+	padding-bottom: 9px;
+}
+.foot a{
+	color: #999999;
+}

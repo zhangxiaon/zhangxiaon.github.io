@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="index.js"></script>
+		<script src="tween.js"></script>
+		<style>
+			ul,li{
+				margin: 0px;
+				padding: 0px;
+				list-style: none;
+			}
+			h1{
+				margin: 0px;
+			}
+			section{
+				width: 800px;
+				height: 400px;
+				background-color: #eee;
+				position: relative;
+				left: 0px;
+				top: 0px;
+			}
+			div{
+				width: 800px;
+				text-align: center;
+			}
+			.clearfix:after{
+				content: "";
+				clear: both;
+				display: block;
+			}
+			ul{
+				width: 95px;
+				background-color: #FFFF00;
+				float: left;
+			}
+			#box{
+				width: 700px;
+				height: 260px;
+				background-color: #fff;
+				text-align: left;
+				float: left;
+				position: relative;
+				overflow: hidden;
+			}
+			img{
+				width: 16px;
+				height: 16px;
+				position: absolute;
+				left: 0px;
+				top: -16px;
+			}
+		</style>
+	</head>
+	<body>
+		<section id="box1">
+			<div>
+				<h1>你的鼠标有多快</h1>
+				<p>游戏说明：点击“开始游戏”，随机掉下来表情图片，点中它，千万别让他掉下去！</p>
+				<p>
+					<input type="button" value="开始游戏" id="btn">
+				</p>
+			</div>
+			<div class="clearfix">
+				<ul>
+					<li>
+						<span>得分：</span>
+						<strong id="get">0分</strong>
+					</li>
+					<li>
+						<span>失分：</span>
+						<strong id="lose">0分</strong>
+					</li>
+				</ul>
+				<div id="box">
+					<img src="img/1.jpg"/>
+				</div>
+			</div>
+		</section>
+	</body>
+</html>
